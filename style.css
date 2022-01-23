@@ -1,0 +1,172 @@
+/*easy to change the dimensions for this page*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 500px;
+    background-color: rgb(186, 253, 244);
+}
+
+.hero {
+    background-color: rgb(36, 43, 41);
+    color: whitesmoke;
+    height: 100vh;
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+    background-color: #131736;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+   /*  width: 200px; */
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 150px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: coral;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: rgb(250, 149, 149);
+}
+.button:active {
+    background-color: rgb(87, 2, 2);
+    color: #80808080
+}
+
+.socials {
+    padding-bottom: 150px;
+}
+
+.logo {
+    height: 20px;
+    margin: 30px;
+}
+
+.social {
+    margin: 20px;
+}
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+h2 {
+    font-size: 50px;
+    
+}
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+.project-card {
+    margin: 10px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.subsectalt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+.project-image {
+    width: 90px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+hr { 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.projlink {
+    text-decoration: none;
+    color: rgb(70, 119, 80);
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+h4 {
+    font-size: 50px;
+    color: whitesmoke;
+}
+h5 {
+    font-size: 30px;
+    color: rgba(245, 245, 245, 0.836);
+}
+.skill {
+    font-size: 20px;
+}
+h6 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
